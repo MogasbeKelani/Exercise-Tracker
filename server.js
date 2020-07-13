@@ -7,7 +7,7 @@ const cors = require('cors')
 const mongoose = require('mongoose')
 
 mongoose.connect(
-  "mongodb+srv://Mohammed:gGQqhJPldYPjR4uA@cluster0.adzvc.mongodb.net/Cluster0?retryWrites=true&w=majority",
+  "(insert your own mongui in here)",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 var Schema = mongoose.Schema;
